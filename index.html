@@ -13,21 +13,21 @@
   <header>
     <div class="container"> <!-- HTML 구조의 핵심인 container 클래스가 포함된 div 태그 -->
       <h1>
-        <button>SEUNGHYUN</button>
+        <button data-animation-scroll="true" data-target="#main">SEUNGHYUN</button>
       </h1>
       <nav>
         <ul>
           <li>
-            <button>About</button>
+            <button data-animation-scroll="true" data-target="#about">About</button>
           </li>
           <li>
-            <button>Features</button>
+            <button data-animation-scroll="true" data-target="#features">Features</button>
           </li>
           <li>
-            <button>Portfolio</button>
+            <button data-animation-scroll="true" data-target="#portfolio">Portfolio</button>
           </li>
           <li>
-            <button>Contact</button>
+            <button data-animation-scroll="true" data-target="#contact">Contact</button>
           </li>
         </ul>
       </nav>
@@ -40,7 +40,9 @@
       <h4>Welcome</h4>
       <h2>I'M <span></span></h2>
       <p>📢따끈따끈한 이승현의 웹 페이지를 소개합니다</p>
-      <button class="download">DOWNLOAD CV</button>
+      <a href="이승현_포트폴리오.pdf" class="download" download>
+        <button class="download">DOWNLOAD CV</button>
+      </a>
       <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
     </div>
   </main>
@@ -145,7 +147,7 @@
   <div class="bg"></div>
   <!-- //end Background-->
   <!-- PortFolio -->
-  <section id="Portfolio" class="portfolio">
+  <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="title">
         <h4>PORTFILOIBACK</h4>
